@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #589A8F;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="https://moonandhoney.github.io/puppies/">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 80%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+
+<center><h1>Meet Our Pups!</h1></center>
+<body>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="https://lh3.googleusercontent.com/EgxlXEig47UappoxLf7qLiZOdRDowX5fEskIUmLRFs4H0Wxm0ZrN6qdnZs-oINFYdRw" alt="dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Male</b> <i>1 Month</i><br><br>He loves belly rubs and rolling around in grass. He gets along with other pups and he is potty trained.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="https://9ed48207422fa7fc5013-a6297eb5ec0f30e883355c8680f3b2d6.ssl.cf2.rackcdn.com/35585131450_6-20190322154216-20190322154226-1000x1000.jpg" alt="dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Female</b> <i>1 Month</i><br><br>She has a favorite toy (in picture). She likes peanut butter treats and she knows a few tricks!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank">
+    <img src="https://secure.img1-fg.wfcdn.com/im/27616071/compr-r85/3125/31254990/dalmatian-puppy-statue.jpg" alt="dog" width="600" height="400">
+  </a>
+  <div class="desc"><b>Male</b> <i>1 Month</i><br><br>He loves to play fetch! He knows how to roll over and he enjoys running through sprinklers.</div>
+</div>
+</body>
+<br>
+<br>
+<center><h1>Interested in a pup? Contact us!</h1></center>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div style="text-align:center">
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="https://i.imgur.com/hfMuvZi.png" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+</html>
 
